@@ -1,6 +1,6 @@
 # Rocket ship
 
-### Teck Stacks:
+### Tech Stacks:
 typescript, ts class, ts functions, JSON (Java Script Object Notation)
 
 ### Instructions
@@ -9,9 +9,9 @@ Using typescript classes
 Create a moon rocket with 3 stages
 Create a rocket class to assemble the various rocket parts into
 
-1.    command module
-2.    first stage
-3.    second stage
+1.    command module </br>
+2.    first stage </br>
+3.    second stage </br>
 
 Each stage can have 0 - 5 engines (first stage, second stage)
 The command module MUST have one engine (different class from stage one and two engines)
