@@ -1,4 +1,4 @@
-class FuelTank{
+export class FuelTank{
     private capacity: number = 10000
 
     private fuelLevel: number = 0

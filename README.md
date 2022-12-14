@@ -13,8 +13,9 @@ Create a rocket class to assemble the various rocket parts into
 2.    first stage </br>
 3.    second stage </br>
 
-Each stage can have 0 - 5 engines (first stage, second stage)
-The command module MUST have one engine (different class from stage one and two engines)
+[x] Each stage can have 0 - 5 engines (first stage, second stage) 
+
+[x] The command module MUST have one engine (different class from stage one and two engines)
 
 Each stage must have a seperateStage and fireStage method
 

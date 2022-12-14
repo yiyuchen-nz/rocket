@@ -1,9 +1,9 @@
-export class Engine{
+export class MainEngine {
     private isOn: boolean = false
 
     constructor() {
     }
 
-    engineIsOn():boolean{
+    mainEngineIsOn():boolean{
         return this.isOn =!this.isOn}
 }
