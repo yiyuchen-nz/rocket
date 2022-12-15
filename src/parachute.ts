@@ -1,9 +1,9 @@
-class Parachute{
-    private switch: boolean = false
+export class Parachute{
+    private isDeployed: boolean = false
 
     constructor() {
     }
 
-    switchParachute():boolean{
-        return this.switch =!this.switch}
+   deployParachute():boolean{
+        return this.isDeployed =!this.isDeployed}
 }

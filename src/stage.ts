@@ -1,21 +1,24 @@
-import { Engine } from "./engine"; 
+import { Engine } from "./engine";
 import { FuelTank } from "./fuelTank";
 
+export class Stage {
+  private Engine: Engine = new Engine();
+  private FuelTank: FuelTank = new FuelTank();
+  engines: Engine[] = [];
 
-export class Stage{
-    private Engine: Engine = new Engine();
-    private FuelTank: FuelTank = new FuelTank();
-    
-    constructor(){}
+  constructor() {}
 
-    addEngine(quan:number):Engine[]{
-        let engines:Engine[]=[]
-        for(let i = 0; i < quan; i++){
-        engines.push(this.Engine) 
+  addEngine(quan: number): void {
+    for (let i = 0; i < quan; i++) {
+      this.engines.push(new Engine());
     }
-        return engines
-    }
-    
+  }
 
+  getNumberOfEngines(): number {
+    return this.engines.length;
+  }
+
+  addFuelToTank(amountOfFuel:number):number{
+   return this.FuelTank.addFuel(amountOfFuel);
+  }
 }
-
