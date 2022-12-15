@@ -1,9 +1,9 @@
 class Thruster{
-    private switch: boolean = false
+    private isFired: boolean = false
 
     constructor() {
     }
 
-    switchThruster():boolean{
-        return this.switch =!this.switch}
+    fireThruster():boolean{
+        return this.isFired =!this.isFired}
 }

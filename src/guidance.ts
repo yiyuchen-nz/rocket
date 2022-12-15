@@ -1,9 +1,9 @@
 class Guidance{
-    private switch: boolean = true
+    private isOn: boolean = true
 
     constructor() {
     }
 
-    switchGuidance():boolean{
-        return this.switch =!this.switch}
+    guidanceIsOn():boolean{
+        return this.isOn =!this.isOn}
 }
